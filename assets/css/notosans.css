@@ -1,0 +1,24 @@
+﻿@charset 'utf-8';
+
+@font-face {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+src: local('Noto Sans Regular'), local('NotoSans-Regular_0'), url(http://errdoc.gabia.net/404.html);
+src: url(../font/notosans-regular_0d41d.eot?#iefix) format('embedded-opentype'),
+/*url(../font/notosans-regular_0.otf) format('opentype'),*/
+url(../font/notosans-regular_0.ttf) format('truetype'),
+url(../font/notosans-regular_0.html) format('woff2'),
+url(../font/notosans-regular_0.woff) format('woff');
+}
+@font-face {
+font-family: 'Noto Sans';
+font-style: bold;
+font-weight: 700;
+src: local('Noto Sans Bold'), local('NotoSans-Bold_0'), url(http://errdoc.gabia.net/404.html);
+src: url(../font/notosans-bold_0d41d.eot?#iefix) format('embedded-opentype'),
+/*url(../font/notosans-bold_0.otf) format('opentype'),*/
+url(../font/notosans-bold_0.ttf) format('truetype'),
+url(../font/notosans-bold_0.html) format('woff2'),
+url(../font/notosans-bold_0.woff) format('woff');
+}
