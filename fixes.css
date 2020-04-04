@@ -1,12 +1,19 @@
 .left {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    margin-top: -180px;
+	position: fixed;
+	left: 0;
+	top: 50%;
+	margin-top: -180px;
 }
 
-@media (max-width: 800px){
-    .wrap .container {
-        padding-bottom: 0px;
-    }
+.products .row [class^='col-']:not(:last-child) {
+	margin-right: 1rem;
+}
+.products .row .col-1-of-3 {
+	width: calc((100% - 2 * 1rem) / 3);
+}
+
+@media (max-width: 800px) {
+	.wrap .container {
+		padding-bottom: 0px;
+	}
 }
