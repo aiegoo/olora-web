@@ -4,3 +4,9 @@
     top: 50%;
     margin-top: -180px;
 }
+
+@media (max-width: 800px){
+    .wrap .container {
+        padding-bottom: 0px;
+    }
+}
