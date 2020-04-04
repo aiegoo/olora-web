@@ -1,0 +1,6 @@
+.left {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    margin-top: -180px;
+}
